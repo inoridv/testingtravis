@@ -1,7 +1,8 @@
 <?php
 
-  echo "test";
-  echo "test";
-  echo "test";
-  echo "test";
-  echo "test";
+/**
+ * @file
+ * Test.
+ */
+
+echo "test";
