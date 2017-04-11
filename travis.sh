@@ -2,11 +2,7 @@
 set -e
 
 PATHS="
-drupal_module/phantomsheet
-:!*.less
-:!*.png
-:!*.json
-:!*.csv
+*.php
 "
 
 CHANGED_FILES="$(git diff --name-only --diff-filter=d origin/master -- $PATHS)"
